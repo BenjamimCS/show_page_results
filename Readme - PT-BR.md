@@ -11,7 +11,7 @@ então nesse diretório teremos arquivos referentes a ela, que é isso que esse 
 ele ler os arquivos da página e exibe um breve <i>preview</i> dele.
 
 ### 📃**NOTAS**
-- **O PHP usado foi a versão 7.**
+- **A versão do PHP usada foi a versão 7.1.3.**
 - **Ele não usa banco de dados ou coisa do tipo, é só php mesmo.**
 - Ele lê apenas arquivos `.html`, mas você pode mudar isso nas condições.
 
