@@ -13,7 +13,7 @@ what this script does:
 it reads the files from the page and displays a brief <i>preview</i> of it.
 ***
 ### 📃**NOTES**
-- **The PHP used was version 7.1.3.**
+- **The PHP version used was 7.1.3.**
 - **It doesn't use a database or anything like that, it's just php.**
 - It only reads `.html` files, but you can change this under conditions.
 
