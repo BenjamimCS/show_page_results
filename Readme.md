@@ -8,8 +8,9 @@ And well, because I won this fight, I decided to post this <i>script</i> here to
 idea and even help.
 
 ### 📕**Description**
-This *script* is intended to display the contents of a tab. For example, we have the articles tab, so in that directory we will have files referring to it, which is  
-what this script does:  
+This *script* is intended to display the contents of a tab. For example,  
+we have the articles tab, so in that directory we will have files referring to it,  
+which is what this script does:  
 it reads the files from the page and displays a brief <i>preview</i> of it.
 ***
 ### 📃**NOTES**
