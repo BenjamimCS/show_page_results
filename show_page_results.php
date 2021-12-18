@@ -1,19 +1,20 @@
 <?php
 
-$baseDir = './'; # Coloque o seu diretório aqui
+$baseDir = './'; # Put your directory here
 $openDir = dir($baseDir);
 
 while($arq = $openDir->read()){
     if($arq !== '.' && $arq !== '..' && !strpos($arq,'.php') && !is_dir($arq)){
-        # Lemos os dados de cada arquivo e o colocamos numa variável... 
+        # Reads the data of each file and puts it in a variable...
         $content = file_get_contents($arq);
 
-        $dom = new DOMDocument();
-        libxml_use_internal_errors(true); # Pro DOM funcionar corretamente recomendo manter esse parâmetro
-        $dom->validateOnParse = true; # Não vi isso fazer efeito, só deixei por conter na documentação
-        $dom->loadHTML($content); # Arquivo a ser usado
+        $dom = new DOMDocument(); 
+        libxml_use_internal_errors(true); # By order to DOM correctly works I recommend to keep this parameter
+        # I didn't see it have some effect, I just left it here 'cause it is in the documentation
+        $dom->validateOnParse = true; 
+        $dom->loadHTML($content); # The file to be used
         
-        # A partir daqui acho que você pode se virar sozinho. Espero ter ajudado
+        # From here, I think you can do it for yourself. I hope helped you
         $h1 = $dom->getElementById('titulo')->textContent;
         $h2 = $dom->getElementById('subtitulo')->textContent;
         $p1 = rtrim(substr($dom->getElementById('lead')->textContent,0,90))."...";
