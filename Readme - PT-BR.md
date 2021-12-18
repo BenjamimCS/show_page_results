@@ -5,12 +5,12 @@ Tive a ideia acho que há dois meses e só consegui pra agora no Natal.
 E bem, por vencer essa luta, decidi postar por aqui esse <i>script</i> pra dá uma  
 ideia e até ajudar mesmo.
 
-### 📕**Descrição**
+### 📕 **Descrição**
 Esse *script* é destinado para exibir os conteúdos de uma aba. Por exemplo, temos a aba artigos,
 então nesse diretório teremos arquivos referentes a ela, que é isso que esse script faz:  
 ele ler os arquivos da página e exibe um breve <i>preview</i> dele.
 
-### 📃**NOTAS**
+### 📃 **NOTAS**
 - **A versão do PHP usada foi a versão 7.1.3.**
 - **Ele não usa banco de dados ou coisa do tipo, é só php mesmo.**
 - Ele lê apenas arquivos `.html`, mas você pode mudar isso nas condições.
@@ -32,7 +32,7 @@ pra poder deixar aquele sentido de algo continuando.
 
 - O código tá bem documento — *acho que até demais*.
 
-### 📃**Notas Finais**
+### 📃 **Notas Finais**
 Decidi publicar esse código pra galera que tá começando — *como eu* — ou que tenha um interesse  
 em algo do tipo. Espero que possa ajudar.
 
@@ -43,6 +43,6 @@ que eu não lembro me fez retornar.
 O DOM do PHP não ajudou muito, então tive que pesquisar um pouco mais pra descobrir o que tava de errado  
 no código. Na verdade tava tudo certo, o PHP só não lida muito bem com ele mesmo, mas isso foi resolvido.
 
-### Vindo aí
+### 😀 Vindo aí
 - Um preview mostrando-o em execução
 - Alguns Tópicos de Verdade
