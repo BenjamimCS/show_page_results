@@ -12,7 +12,7 @@ while($arq = $openDir->read()){
         libxml_use_internal_errors(true); # By order to DOM correctly works I recommend to keep this parameter
         # I didn't see it have some effect, I just left it here 'cause it is in the documentation
         $dom->validateOnParse = true; 
-        $dom->loadHTML($content); # The file to be used
+        $dom->loadHTML($content); # The string to be used
         
         # From here, I think you can do it for yourself. I hope helped you
         $h1 = $dom->getElementById('titulo')->textContent;
