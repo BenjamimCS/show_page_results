@@ -28,7 +28,7 @@ Vai por sua escolha.
 - Também tem a função de remover qualquer espaço ao final da amostra e adicionado o sinal de reticências,  
 pra poder deixar aquele sentido de algo continuando.
 
-- Além do *script* tem também uma breve página de amostra — *prometo melhorá-la* — e um CSS para a mesma.
+- Além do *script* tem também uma breve página de demonstração.
 
 - O código tá bem documento — *acho que até demais*.
 
