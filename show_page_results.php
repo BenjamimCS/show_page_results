@@ -15,8 +15,8 @@ while($arq = $openDir->read()){
         $dom->loadHTML($content); # The string to be used
         
         # From here, I think you can do it for yourself. I hope helped you
-        $h1 = $dom->getElementById('titulo')->textContent;
-        $h2 = $dom->getElementById('subtitulo')->textContent;
+        $h1 = $dom->getElementById('title')->textContent;
+        $h2 = $dom->getElementById('subtitle')->textContent;
         $p1 = rtrim(substr($dom->getElementById('lead')->textContent,0,90))."...";
         
         echo
