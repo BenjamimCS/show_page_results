@@ -30,7 +30,7 @@ it reads the files from the page and displays a brief <i>preview</i> of it.
 - It also has the function of removing any space at the end of the sample and adding the ellipsis sign,  
   to be able to let that sense of something continue.
 
-- Besides the script it also has a demo page.
+- Besides the script it also has a brief demo page.
 
 - The code is well documented — *I think its even too much*.
 
