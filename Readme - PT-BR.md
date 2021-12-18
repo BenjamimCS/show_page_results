@@ -43,3 +43,6 @@ que eu não lembro me fez retornar.
 O DOM do PHP não ajudou muito, então tive que pesquisar um pouco mais pra descobrir o que tava de errado  
 no código. Na verdade tava tudo certo, o PHP só não lida muito bem com ele mesmo, mas isso foi resolvido.
 
+### Vindo aí
+- Um preview mostrando-o em execução
+- Alguns Tópicos de Verdade
