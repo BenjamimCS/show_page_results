@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Topics</title>
-    <link rel="stylesheet" href="../decoration/style.css">
+    <link rel="stylesheet" href="./decoration/style.css">
     <style>
 
 </style>
@@ -15,12 +15,12 @@
         <h1>Topics</h1> 
         <section id="results">
             <?php
-            $baseDir = './';
+            $baseDir = './topics/';
             $openDir = dir($baseDir);
             
             while($arq = $openDir->read()){
                 if($arq !== '.' && $arq !== '..' && !strpos($arq,'.php') && !is_dir($arq)){
-                    $content = file_get_contents($arq);
+                    $content = file_get_contents($baseDir.$arq);
             
                     $dom = new DOMDocument();
                     libxml_use_internal_errors(true);
@@ -33,7 +33,7 @@
             
                     echo
                     "
-                    <a href='".$arq."' rel='next'>
+                    <a href='".$baseDir.$arq."' rel='next'>
                         <div class='result-area'>
                             <h1>".$h1."</h1>
                             <h2>".$h2."</h1>
