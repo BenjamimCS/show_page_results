@@ -7,13 +7,13 @@ I had the idea, I think two months ago, and I only got it for now at Christmas.
 And well, because I won this fight, I decided to post this script here to give a
 idea and even help.
 
-### 📕&nbsp;**Description**
+### 📕 **Description**
 This script is intended to display the contents of a tab. For example,  
 we have the articles tab, so in that directory we will have files referring to it,  
 which is what this script does:  
 it reads the files from the page and displays a brief <i>preview</i> of it.
 ***
-### 📃&nbsp;**NOTES**
+### 📃 **NOTES**
 - **The PHP version used was 7.1.3.**
 - **It doesn't use a database or anything like that, it's just php.**
 - It only reads `.html` files, but you can change this under conditions.
@@ -34,7 +34,7 @@ it reads the files from the page and displays a brief <i>preview</i> of it.
 
 - The code is well documented — *I think its even too much*.
 
-### 📃&nbsp;**Final Notes**
+### 📃 **Final Notes**
 I decided to publish this code for people who are starting — *like me* — or who have an interest  
 in something like that. I Hope can helped.
 
@@ -45,6 +45,6 @@ that I don't remember made me return.
 PHP's DOM didn't help so much, so I had to do some research to find out what was wrong  
 in the code. Actually everything was fine, PHP just doesn't handle whit it very well, but that was fixed.
 
-### 😀&nbsp;**Coming Up**
+### 😀 **Coming Up**
 - A preview showing it running.
 - Some Real Topics.
