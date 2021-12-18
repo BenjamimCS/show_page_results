@@ -24,20 +24,19 @@ it reads the files from the page and displays a brief <i>preview</i> of it.
   - I recommend that you see the [PHP DOM documentation](https://www.php.net/manual/en/book.dom.php "PHP: DOM - Manual")
   in case you don't understand much.
 
-- In the <i>previews</i> it is always noticed that the sample text is not complete, this one does that too,  
-- and you can also change the size or even take it off, even if it doesn't look good.  
-- It goes by your choice.
+- In the previews it is always noticed that the sample text is not complete, this one does that too,  
+  and you can also change the size or even take it off, even if it doesn't look good. It goes by your choice.
 
 - It also has the function of removing any space at the end of the sample and adding the ellipsis sign,  
-- to be able to let that sense of something continue.
+  to be able to let that sense of something continue.
 
-- Besides the *script* it also has a short sample page — *promise to improve it* — and a CSS for it.
+- Besides the script it also has a demo page.
 
 - The code is well documented — *I think its even too much*.
 
 ### 📃**Final Notes**
 I decided to publish this code for people who are starting — *like me* — or who have an interest  
-in something like that. Hope you can help.
+in something like that. I Hope can helped.
 
 I don't have a high knowledge of the language or Database yet, so I thought it would be possible  
 and it really was, even though last time I thought it would only be possible with Database, but something  
@@ -47,5 +46,5 @@ PHP's DOM didn't help so much, so I had to do some research to find out what was
 in the code. Actually everything was fine, PHP just doesn't handle whit it very well, but that was fixed.
 
 ### **Coming Up**
-- A preview showing it running
-- Some Real Topics
+- A preview showing it running.
+- Some Real Topics.
