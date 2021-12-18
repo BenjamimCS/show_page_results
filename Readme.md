@@ -45,3 +45,7 @@ that I don't remember made me return.
 
 PHP's DOM didn't help so much, so I had to do some research to find out what was wrong  
 in the code. Actually everything was fine, PHP just doesn't handle whit it very well, but that was fixed.
+
+### **Comming Up**
+- A preview showing it running
+- Some Real Articles
