@@ -15,9 +15,9 @@
             $baseDir = './topics/';
             $openDir = dir($baseDir);
             
-            while($arq = $openDir->read()){
-                if($arq !== '.' && $arq !== '..' && !strpos($arq,'.php') && !is_dir($arq)){
-                    $content = file_get_contents($baseDir.$arq);
+            while($files = $openDir->read()){
+                if($files !== '.' && $files !== '..' && !strpos($files,'.php') && !is_dir($files)){
+                    $content = file_get_contents($baseDir.$files);
             
                     $dom = new DOMDocument();
                     libxml_use_internal_errors(true);
@@ -30,7 +30,7 @@
             
                     echo
                     "
-                    <a href='".$baseDir.$arq."' rel='next'>
+                    <a href='".$baseDir.$files."' rel='next'>
                         <div class='result-area'>
                             <h1>".$h1."</h1>
                             <h2>".$h2."</h1>

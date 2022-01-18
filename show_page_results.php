@@ -3,10 +3,10 @@
 $baseDir = './'; # Put your directory here
 $openDir = dir($baseDir);
 
-while($arq = $openDir->read()){
-    if($arq !== '.' && $arq !== '..' && !strpos($arq,'.php') && !is_dir($arq)){
+while($files = $openDir->read()){
+    if($files !== '.' && $files !== '..' && !strpos($files,'.php') && !is_dir($files)){
         # Reads the data of each file and puts it in a variable...
-        $content = file_get_contents($arq);
+        $content = file_get_contents($files);
 
         $dom = new DOMDocument(); 
         libxml_use_internal_errors(true); # By order to DOM correctly works I recommend to keep this parameter
@@ -21,7 +21,7 @@ while($arq = $openDir->read()){
         
         echo
         "
-        <a href='".$arq."' rel='next'>
+        <a href='".$files."' rel='next'>
             <div>                
                 <h1>".$h1."</h1>                
                 <h2>".$h2."</h1>                
