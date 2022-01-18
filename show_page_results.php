@@ -4,7 +4,7 @@ $baseDir = './'; # Put your directory here
 $openDir = dir($baseDir);
 
 while($files = $openDir->read()){
-    if($files !== '.' && $files !== '..' && !strpos($files,'.php') && !is_dir($files)){
+    if($files !== '.' && $files !== '..' && strpos($files,'.htmlclea') && !is_dir($files)){
         # Reads the data of each file and puts it in a variable...
         $content = file_get_contents($files);
 
