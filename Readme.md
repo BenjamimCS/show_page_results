@@ -47,4 +47,4 @@ in the code. Actually everything was fine, PHP just doesn't handle whit it very 
 
 ### 😀 **Coming Up**
 - A preview showing it running.
-- Some Real Topics.
+- Some Real Cool Topics in the Demo.
