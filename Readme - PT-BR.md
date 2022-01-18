@@ -45,4 +45,4 @@ no código. Na verdade tava tudo certo, o PHP só não lida muito bem com ele me
 
 ### 😀 Vindo aí
 - Um preview mostrando-o em execução
-- Alguns Tópicos de Verdade
+- Alguns Tópicos Legais de Verdade no Demo
