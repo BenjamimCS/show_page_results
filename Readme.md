@@ -43,7 +43,7 @@ and it really was, even though last time I thought it would only be possible wit
 that I don't remember made me return.
 
 PHP's DOM didn't help so much, so I had to do some research to find out what was wrong  
-in the code. Actually everything was fine, PHP just doesn't handle whit it very well, but that was fixed.
+in the code. Actually everything was fine, PHP just doesn't handle with it very well, but that was fixed.
 
 ### 😀 **Coming Up**
 - A preview showing it running.
